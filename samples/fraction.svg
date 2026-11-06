@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1120" viewBox="0 0 720 1120">
+  <rect width="720" height="1120" fill="#fffdf8"/>
+  <rect x="28" y="28" width="664" height="1064" fill="none" stroke="#e4d3bf" stroke-width="2"/>
+  <line x1="78" y1="48" x2="78" y2="1072" stroke="#d45b52" stroke-width="2"/>
+  <text x="104" y="86" fill="#243e6a" font-size="32" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#20845;&#24180;&#32423;&#25968;&#23398; &#183; &#20998;&#25968;&#36816;&#31639;</text>
+  <text x="104" y="122" fill="#6d645b" font-size="16" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#28436;&#31034;&#26679;&#21367; &#183; &#22995;&#21517;&#65306;&#23567;&#38632; &#183; &#19981;&#26159;&#30495;&#23454;&#23398;&#29983;</text>
+  <text x="104" y="196" fill="#1f1a17" font-size="22" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">1. &#35745;&#31639;&#65306;1/2 + 1/3</text>
+  <text x="140" y="234" fill="#1d4f91" font-size="22" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#35299;&#65306;1/2 + 1/3 = 2/5</text>
+  <text x="104" y="310" fill="#1f1a17" font-size="22" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">2. &#35745;&#31639;&#65306;3/4 - 1/4</text>
+  <text x="140" y="348" fill="#1d4f91" font-size="22" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#35299;&#65306;2/4 = 1/2</text>
+  <text x="104" y="424" fill="#1f1a17" font-size="22" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">3. &#35745;&#31639;&#65306;2/3 x 3/5</text>
+  <text x="140" y="462" fill="#1d4f91" font-size="22" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#35299;&#65306;6/15 = 2/5</text>
+  <text x="104" y="538" fill="#1f1a17" font-size="22" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">4. &#35745;&#31639;&#65306;3/4 &#247; 1/2</text>
+  <text x="140" y="576" fill="#1d4f91" font-size="22" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#35299;&#65306;3/4 x 1/2 = 3/8</text>
+  <text x="104" y="652" fill="#1f1a17" font-size="22" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">5. &#19968;&#26742;&#27833;&#29992;&#21435; 2/5&#65292;&#21097;&#19979; 18 &#21319;&#12290;</text>
+  <text x="132" y="690" fill="#1f1a17" font-size="22" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#21407;&#26469;&#26377;&#22810;&#23569;&#21319;&#65311;</text>
+  <text x="140" y="732" fill="#1d4f91" font-size="22" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#35299;&#65306;&#21097;&#19979; 3/5 = 18</text>
+  <text x="140" y="770" fill="#1d4f91" font-size="22" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">18 &#247; 3/5 = 30</text>
+  <text x="140" y="808" fill="#1d4f91" font-size="22" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#21407;&#26469; 30 &#21319;</text>
+  <text x="104" y="1020" fill="#6d645b" font-size="15" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#34013;&#33394;&#23383;&#26159;&#21367;&#38754;&#20316;&#31572;&#12290;&#26412;&#22320;&#25209;&#25913;&#20250;&#23545;&#29031;&#26631;&#20934;&#31572;&#26696;&#12290;</text>
+</svg>

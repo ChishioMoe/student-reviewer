@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' blob:; style-src 'self'; script-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'"
+    />
+    <title>试卷复盘</title>
+    <meta name="description" content="在本地批改数学试卷，查看错因、知识点和针对性练习，并留下学生三维画像。" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand">
+        <span class="seal" aria-hidden="true">批</span>
+        <div>
+          <p class="eyebrow">数学 · 本地批改</p>
+          <h1>试卷复盘</h1>
+        </div>
+      </div>
+      <label class="nick">
+        昵称
+        <input id="nickname" maxlength="16" autocomplete="off" spellcheck="false" aria-describedby="nick-help" />
+      </label>
+    </header>
+    <p id="nick-help" class="nick-help">只用昵称，保存在这台浏览器里。不要填真实姓名。</p>
+    <nav class="tabs" aria-label="页面">
+      <div class="tabs-inner">
+        <button type="button" data-tab="review" aria-selected="true">本次批改</button>
+        <button type="button" data-tab="profile" aria-selected="false">学生三维</button>
+      </div>
+    </nav>
+    <main id="main"></main>
+    <p id="live" class="sr-only" aria-live="polite"></p>
+    <input id="camera-input" class="file-input" type="file" accept="image/*" capture="environment" aria-label="拍照" />
+    <input id="album-input" class="file-input" type="file" accept="image/*" aria-label="从相册选择图片" />
+    <noscript>请开启 JavaScript。批改在你的浏览器里完成，不需要密钥。</noscript>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
