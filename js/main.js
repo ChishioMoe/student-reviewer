@@ -242,7 +242,7 @@ function actionButton(title, detail, onClick, secondary) {
 }
 
 function renderReview() {
-  const back = el("button", { type: "button", class: "btn ghost", text: "返回选卷" });
+  const back = el("button", { type: "button", class: "btn ghost back", text: "返回选卷" });
   back.addEventListener("click", () => {
     releaseUpload();
     state.paper = null;
@@ -398,8 +398,8 @@ function renderResult() {
       el("article", { class: "tip" }, [
         el("p", { class: "kicker", text: "知识点" }),
         el("b", { text: tip.name }),
-        el("p", {}, [el("b", { text: "手法 " }), tip.technique]),
-        el("p", {}, [el("b", { text: "易错 " }), tip.pitfall]),
+        el("p", { class: "pair" }, [el("b", { text: "手法" }), tip.technique]),
+        el("p", { class: "pair" }, [el("b", { text: "易错" }), tip.pitfall]),
       ]),
     );
   }
@@ -639,30 +639,30 @@ function renderRadar(summary) {
     svg.append(svgEl("polygon", {
       points: values.map((_, index) => point(index, ring).join(",")).join(" "),
       fill: "none",
-      stroke: "#e3d5c3",
+      stroke: "#ddd6cb",
       "stroke-width": "1",
     }));
   }
   values.forEach((_, index) => {
     const [x, y] = point(index, 1);
-    svg.append(svgEl("line", { x1: cx, y1: cy, x2: x, y2: y, stroke: "#e3d5c3" }));
+    svg.append(svgEl("line", { x1: cx, y1: cy, x2: x, y2: y, stroke: "#ddd6cb" }));
   });
   svg.append(svgEl("polygon", {
     points: values.map((item, index) => point(index, item.value / 100).join(",")).join(" "),
-    fill: "rgba(157, 43, 34, 0.18)",
-    stroke: "#9d2b22",
+    fill: "rgba(159, 45, 34, 0.14)",
+    stroke: "#9f2d22",
     "stroke-width": "2",
   }));
   values.forEach((item, index) => {
     const [x, y] = point(index, Math.max(item.value, 8) / 100);
-    svg.append(svgEl("circle", { cx: x, cy: y, r: 3.5, fill: "#9d2b22" }));
+    svg.append(svgEl("circle", { cx: x, cy: y, r: 3.5, fill: "#9f2d22" }));
     const [lx, ly] = point(index, 1.42);
     const anchor = index === 0 ? "middle" : index === 1 ? "start" : "end";
     const text = svgEl("text", {
       x: lx,
       y: ly,
       "text-anchor": anchor,
-      fill: "#1f1a17",
+      fill: "#1a1814",
       "font-size": "13",
       "font-family": "WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif",
     }, `${item.label} ${item.value}`);
@@ -684,10 +684,10 @@ function renderSpark(attempts) {
   svg.append(svgEl("polyline", {
     points: coords.map((pair) => pair.join(",")).join(" "),
     fill: "none",
-    stroke: "#243e6a",
+    stroke: "#1a1814",
     "stroke-width": "2",
   }));
-  for (const [x, y] of coords) svg.append(svgEl("circle", { cx: x, cy: y, r: 3, fill: "#243e6a" }));
+  for (const [x, y] of coords) svg.append(svgEl("circle", { cx: x, cy: y, r: 3, fill: "#1a1814" }));
   return svg;
 }
 
