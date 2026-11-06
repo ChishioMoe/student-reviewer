@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1240" viewBox="0 0 720 1240">
+  <rect width="720" height="1240" fill="#fffdf8"/>
+  <rect x="28" y="28" width="664" height="1184" fill="none" stroke="#e4d3bf" stroke-width="2"/>
+  <line x1="78" y1="48" x2="78" y2="1192" stroke="#d45b52" stroke-width="2"/>
+  <text x="104" y="86" fill="#243e6a" font-size="30" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#20843;&#24180;&#32423;&#25968;&#23398; &#183; &#19977;&#35282;&#24418;&#19982;&#21246;&#32929;</text>
+  <text x="104" y="122" fill="#6d645b" font-size="16" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#28436;&#31034;&#26679;&#21367; &#183; &#22995;&#21517;&#65306;&#23567;&#21271; &#183; &#19981;&#26159;&#30495;&#23454;&#23398;&#29983;</text>
+  <text x="104" y="180" fill="#1f1a17" font-size="20" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">1. &#20004;&#20869;&#35282; 50 &#24230;&#12289;60 &#24230;&#65292;&#31532;&#19977;&#20869;&#35282;&#65311;</text>
+  <text x="140" y="214" fill="#1d4f91" font-size="20" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#35299;&#65306;180 - 110 = 70 &#24230;</text>
+  <text x="104" y="268" fill="#1f1a17" font-size="20" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">2. &#31561;&#33136;&#19977;&#35282;&#24418;&#39030;&#35282; 40 &#24230;&#65292;&#24213;&#35282;&#65311;</text>
+  <text x="140" y="302" fill="#1d4f91" font-size="20" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">(180 - 40) / 2 = 70 &#24230;</text>
+  <text x="104" y="356" fill="#1f1a17" font-size="20" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">3. &#30452;&#35282;&#36793; 3&#12289;4&#65292;&#26012;&#36793;&#26159;&#22810;&#23569;&#65311;</text>
+  <text x="140" y="390" fill="#1d4f91" font-size="20" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#35299;&#65306;9 + 16 = 25&#65292;&#26012;&#36793; 5</text>
+  <text x="104" y="444" fill="#1f1a17" font-size="20" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">4. &#26012;&#36793; 13&#65292;&#19968;&#30452;&#35282;&#36793; 5&#65292;&#21478;&#19968;&#36793;&#65311;</text>
+  <text x="140" y="478" fill="#1d4f91" font-size="20" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#35299;&#65306;13 - 5 = 8</text>
+  <text x="104" y="532" fill="#1f1a17" font-size="20" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">5. &#23545;&#39030;&#35282;&#20013;&#19968;&#20010;&#35282;&#26159; 35 &#24230;&#65292;&#21478;&#19968;&#20010;&#65311;</text>
+  <text x="140" y="566" fill="#1d4f91" font-size="20" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#35299;&#65306;180 - 35 = 145 &#24230;</text>
+  <text x="104" y="620" fill="#1f1a17" font-size="20" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">6. &#20004;&#36793;&#30456;&#31561;&#65292;&#22841;&#35282; 60 &#24230;&#65292;&#26159;&#20160;&#20040;&#19977;&#35282;&#24418;&#65311;</text>
+  <text x="140" y="654" fill="#1d4f91" font-size="20" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#35299;&#65306;&#31561;&#33136;&#30452;&#35282;&#19977;&#35282;&#24418;</text>
+  <g transform="translate(250 760)">
+    <polygon points="160,10 20,200 300,200" fill="none" stroke="#243e6a" stroke-width="3"/>
+    <polyline points="56,200 56,164 20,164" fill="none" stroke="#243e6a" stroke-width="2"/>
+  <text x="70" y="240" fill="#243e6a" font-size="16" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#30452;&#35282;&#19977;&#35282;&#24418;&#31034;&#24847;</text>
+  </g>
+  <text x="104" y="1100" fill="#6d645b" font-size="15" font-family="WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif">&#34013;&#33394;&#23383;&#26159;&#21367;&#38754;&#20316;&#31572;&#12290;&#26412;&#22320;&#25209;&#25913;&#20250;&#23545;&#29031;&#26631;&#20934;&#31572;&#26696;&#12290;</text>
+</svg>
